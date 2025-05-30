@@ -14,4 +14,4 @@ Firstly, I defined the structure an content of the website using HTML and than I
 
 # Lessons Learned:
 
-I developed this project early on my studies, I believe the CSS styling was the biggest lesson out of it. You will notice that when hovering over the container a subttle shadow appears, and when hovering over the buttons a green border appears - without changing the size of the container.
+I developed this project early on my studies, I believe the CSS styling was the biggest lesson out of it. You will notice that when hovering over the container a subtle shadow appears, and when hovering over the buttons a green border appears - without changing the size of the container.
