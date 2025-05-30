@@ -2,7 +2,7 @@
 
 A simple website that displays picture, location, description and social media links of a person or business (in this case me 🙋🏻‍♀️).
 
-**Link to project:**
+**Link to project:** https://social-links-ten-mauve.vercel.app/
 
 ![Social Media Links](SocialLinksWebsite.png)
 
