@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+  --color-white: #ffffff;
+  --color-light-grey: #333333;
+  --color-medium-grey: #1f1f1f;
+  --color-dark-grey: #141414;
+
+  --color-green: #c5f82a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--color-dark-grey);
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--color-medium-grey);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 600px;
+  text-align: center;
+}
+
+#container:hover {
+  box-shadow: 0 0.5px 5px var(--color-medium-grey);
+  transition: 0.3s;
+}
+
+#photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-position: center;
+  border: 0.1px solid var(--color-light-grey);
+}
+
+#name {
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#location {
+  color: var(--color-green);
+  font-size: 18px;
+}
+
+#description {
+  color: var(--color-light-grey);
+  font-size: 14px;
+}
+
+button {
+  background-color: var(--color-light-grey);
+  padding: 10px 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  border: 0.5px solid var(--color-light-grey);
+}
+
+a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+button:hover {
+  border: 0.5px solid var(--color-green);
+  transition: 0.4s;
+}
